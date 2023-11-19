@@ -1,8 +1,5 @@
 module github.com/robmonte/ghas-test-sync
 
-go 1.20
+go 1.21.4
 
-require (
-	github.com/robmonte/private-printer v0.1.0
-	golang.org/x/net v0.1.0
-)
+require github.com/robmonte-org/org-private-printer v0.0.0-20231119035747-6d9771ca9b18
