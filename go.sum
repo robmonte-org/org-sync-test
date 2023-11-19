@@ -1,2 +1,4 @@
 github.com/robmonte-org/org-private-printer v0.0.0-20231119035747-6d9771ca9b18 h1:ba6Ce4glaAkALI0DKnzqGDEd2qZsF3o0O0e/1rK1xfU=
 github.com/robmonte-org/org-private-printer v0.0.0-20231119035747-6d9771ca9b18/go.mod h1:1k17e12WQHWd1s1gafDe07NiJyaojyao86Qjjv8sadI=
+github.com/robmonte/private-printer-restricted v0.4.0 h1:cZPCbXo3oVZ55u3meQQ75JsKkFDT37noaavGkmwIhFM=
+github.com/robmonte/private-printer-restricted v0.4.0/go.mod h1:XYalIlbrX6inFz5UTsAxIyZDLfd/ySy6HPCJQVT+saY=
