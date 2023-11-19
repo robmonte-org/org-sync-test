@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
+	"github.com/robmonte-org/org-private-printer-restricted/privateprinterrestricted"
 	"github.com/robmonte-org/org-private-printer/privateprinter"
-	"github.com/robmonte/private-printer-restricted/privateprinterrestricted"
 )
 
 const INCREMENT_ME int = 1
