@@ -1,8 +1,5 @@
-module github.com/robmonte-org/test-repo-1
+module github.com/robmonte/sync-test-gh
 
-go 1.21.4
+go 1.20
 
-require (
-	github.com/robmonte-org/org-printer-allowed v0.4.0
-	github.com/robmonte-org/org-printer-restricted v0.2.0
-)
+require github.com/robmonte/private-printer v0.26.0

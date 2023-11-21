@@ -1,4 +1,2 @@
-github.com/robmonte-org/org-printer-allowed v0.4.0 h1:a0NE8lFucmfTu9jQIXmGZ0+KATPWOgQIoqxDB/22hT8=
-github.com/robmonte-org/org-printer-allowed v0.4.0/go.mod h1:zJUhHR6vFmzFUQ8K4JC7SaefK4tmsIS9QZ2oM2YW6rI=
-github.com/robmonte-org/org-printer-restricted v0.2.0 h1:pGthLV18fH+ZG6lvdsDP2jK1HWYnl2M7tBxizkcwg08=
-github.com/robmonte-org/org-printer-restricted v0.2.0/go.mod h1:Epu0cVs6QYi3faEbG3UvTxdwI59mgb1mwN8nAn1rjlA=
+github.com/robmonte/private-printer v0.26.0 h1:rJz+zNTBuZHLy8Y2/dqdPClGAUNFUfd+WW0HweL0F2s=
+github.com/robmonte/private-printer v0.26.0/go.mod h1:pfa2xcZ22fPn93piKWOYNMyp+P1kowKEtF8Z0IjTGjo=
