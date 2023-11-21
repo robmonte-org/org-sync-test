@@ -1,4 +1,4 @@
-module github.com/robmonte/test-repo-1
+module github.com/robmonte-org/test-repo-1
 
 go 1.21.4
 
