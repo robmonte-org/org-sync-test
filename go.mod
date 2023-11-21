@@ -1,4 +1,4 @@
-module github.com/robmonte/sync-test-gh
+module github.com/robmonte/test-repo-1
 
 go 1.21.4
 
