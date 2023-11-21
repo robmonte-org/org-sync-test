@@ -1,5 +1,5 @@
 module github.com/robmonte/sync-test-gh
 
-go 1.20
+go 1.21.4
 
-require github.com/robmonte/private-printer v0.26.0
+require github.com/robmonte-org/org-printer-allowed v0.6.0
