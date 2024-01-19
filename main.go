@@ -15,11 +15,11 @@ func main() {
 	log.Printf("Running %q test type\n", testType)
 
 	switch testType {
-	case "LOAD_TEST_TOKEN":
-		loadTypeTokenTestCheck()
+	case "WRITE_TEST_TOKEN":
+		writeTypeTokenTestCheck()
 
-	case "LOAD_TEST_APP":
-		loadTypeAppTestCheck()
+	case "WRITE_TEST_APP":
+		writeTypeAppTestCheck()
 
 	case "UPDATE_TEST_TOKEN":
 		updateTypeTokenTestCheck()
@@ -32,9 +32,9 @@ func main() {
 	}
 }
 
-func loadTypeTokenTestCheck() {
-	// Token Load Test 1
-	envVar1 := "STOREGH_TEST_TOKEN_LOAD_KEY_1_BAD_SYMBOLS________"
+func writeTypeTokenTestCheck() {
+	// Token Write Test 1
+	envVar1 := "STOREGH_TEST_TOKEN_WRITE_KEY_1_BAD_SYMBOLS________"
 	secret, found := os.LookupEnv(envVar1)
 	if !found || secret == "" {
 		log.Fatalf("Failed to find %q value\n", envVar1)
@@ -45,8 +45,8 @@ func loadTypeTokenTestCheck() {
 		log.Printf("the value of %q matched the expected value! Yay!\n", envVar1)
 	}
 
-	// Token Load Test 2
-	envVar2 := "STOREGH_TEST_TOKEN_LOAD_KEY_2"
+	// Token Write Test 2
+	envVar2 := "STOREGH_TEST_TOKEN_WRITE_KEY_2"
 	secret, found = os.LookupEnv(envVar2)
 	if !found || secret == "" {
 		log.Fatalf("failed to find %q value\n", envVar2)
@@ -57,8 +57,8 @@ func loadTypeTokenTestCheck() {
 		log.Printf("the value of %q matched the expected value! Yay!\n", envVar2)
 	}
 
-	// Token Load Test 3
-	envVar3 := "STOREGH_TEST_TOKEN_LOAD_KEY_3"
+	// Token Write Test 3
+	envVar3 := "STOREGH_TEST_TOKEN_WRITE_KEY_3"
 	secret, found = os.LookupEnv(envVar3)
 	if !found || secret == "" {
 		log.Fatalf("failed to find %q value\n", envVar3)
@@ -69,8 +69,8 @@ func loadTypeTokenTestCheck() {
 		log.Printf("the value of %q matched the expected value! Yay!\n", envVar3)
 	}
 
-	// Token Load Test 4
-	envVar4 := "STOREGH_TEST_TOKEN_LOAD_KEY_4"
+	// Token Write Test 4
+	envVar4 := "STOREGH_TEST_TOKEN_WRITE_KEY_4"
 	secret, found = os.LookupEnv(envVar4)
 	if !found || secret == "" {
 		log.Fatalf("failed to find %q value\n", envVar4)
@@ -86,8 +86,8 @@ func loadTypeTokenTestCheck() {
 		log.Printf("the value of %q matched the expected value! Yay!\n", envVar4)
 	}
 
-	// Token Load Test 5
-	envVar5 := "STOREGH_TEST_TOKEN_LOAD_KEY_5"
+	// Token Write Test 5
+	envVar5 := "STOREGH_TEST_TOKEN_WRITE_KEY_5"
 	secret, found = os.LookupEnv(envVar5)
 	if !found || secret == "" {
 		log.Fatalf("failed to find %q value\n", envVar5)
@@ -104,9 +104,9 @@ func loadTypeTokenTestCheck() {
 	}
 }
 
-func loadTypeAppTestCheck() {
-	// App Load Tets 1
-	envVar5 := "STOREGH_TEST_APP_LOAD_KEY_1"
+func writeTypeAppTestCheck() {
+	// App Write Tets 1
+	envVar5 := "STOREGH_TEST_APP_WRITE_KEY_1"
 	secret, found := os.LookupEnv(envVar5)
 	if !found || secret == "" {
 		log.Fatalf("failed to find %q value\n", envVar5)
